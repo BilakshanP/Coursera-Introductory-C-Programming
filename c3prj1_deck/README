@@ -1,6 +1,8 @@
 Decks (sets of cards)
 ---------------------
 
+Note: if you have not completed the course 2 poker projects,
+please use the fast-forward command to complete them first!
 
 Now that you have learned about arrays, you are ready
 to start working with decks and hands of cards (represented
@@ -91,7 +93,8 @@ First, you will write four functions in deck.c:
    pseudo-random numbers.  (Pseudo-random
    numbers are quite sufficient here,
    since they are not used for security
-   purposes).
+   purposes). Note that you should not need to
+   use the 'srand' function.
 
    We will note that in trying to devise
    this algorithm, you should not
